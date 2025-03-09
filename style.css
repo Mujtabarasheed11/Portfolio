@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 26, 36);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+    background-color: rgb(26, 26, 36);
+    position: sticky;
+    top: 0;
+    transition: all ease 0.1s;
+}
+
+.navbar a:hover {
+    color: aqua;
+    padding-top: 1px;
+}
+
+.navbar a:active {
+    color: aqua;
+}
+
+.logo {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.logo span {
+    color: aqua;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+}
+
+.nav-items li a {
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+.bars i {
+    color: #fafeff;
+    font-size: 30px;
+}
+
+.home-section {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    height: 72vh;
+    margin: 0 auto;
+}
+
+.section1 {
+    padding: 59px;
+}
+
+.section1 h1 {
+    width: 40vw;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.section1 p {
+    margin-bottom: 20px;
+    font-size: 19px;
+    color: aliceblue;
+}
+
+.section1 span {
+    color: aqua;
+}
+
+.fronted {
+    color: aqua;
+    font-size: 27px;
+}
+
+.section2 {
+    width: 40vw;
+}
+
+.section2 img {
+    height: 390px;
+    width: 390px;
+    border-radius: 100%;
+}
+
+.btn-hero {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 215, 253);
+    padding: 4px 14px;
+    font-size: 20px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn-hero:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+.About-section {
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    align-items: center;
+}
+
+.about1 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    padding: 54px;
+}
+
+.about2 p {
+    line-height: 20px;
+    width: 66vw;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about2 h1 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.about2 span {
+    color: aqua;
+}
+
+.about2 a {
+    color: black;
+    background-color: aqua;
+    padding: 4px 14px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.about2 a:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+.Service h1 {
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    align-items: center;
+    height: 100px;
+}
+
+.btn-learn a {
+    color: aqua;
+}
+
+.Service span {
+    color: aqua;
+}
+
+.icon {
+    color: rgb(103, 127, 152);
+    font-size: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    margin: 50px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 2px 3px 2px 4px aqua;
+    border-radius: 9px;
+    transition: 1s;
+}
+
+.card p {
+    padding: 12px;
+}
+
+.card:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.card {
+    color: aliceblue;
+}
+
+.card a {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 215, 253);
+    padding: 4px 14px;
+    font-size: 16px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.card a:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+.project1 {
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    align-items: center;
+    height: 100px;
+}
+
+.project1 span {
+    color: aqua;
+}
+
+.card-img img {
+    width: 350px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.card2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+
+.card-img {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content:hover {
+    opacity: 1;
+}
+
+.content h1 {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 19px;
+    color: #fafeff;
+}
+
+.content > * {
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+
+.content:hover > * {
+    transform: translateY(0);
+}
+
+footer {
+    color: white;
+}
+
+.footer-cnt {
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    height: 30vh;
+}
+
+.f-left {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.f-left h1 {
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.f-left p {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.f-right {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.f-right1 {
+    display: flex;
+    align-items: center;
+}
+
+.f-right1 img {
+    width: 35px;
+}
+
+.f-right1 p {
+    font-size: 25px;
+    margin: 12px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 650px) {
+    .nav-items {
+        display: none;
+    }
+
+    .card2 {
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 30px 0;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .home-section {
+        width: 92vw;
+        display: flex;
+        height: auto;
+        margin: 13px 34px;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .section2 {
+        width: 100%;
+    }
+
+    .section2 img {
+        height: 300px;
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .section1 {
+        padding: 28px;
+        text-align: center;
+    }
+
+    .about1 img {
+        display: none;
+    }
+
+    .about2 p {
+        line-height: 21px;
+        width: 85vw;
+        color: aliceblue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .about2 h1 {
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .card-img{
+        width: 200px;
+    }
+
+    .cards {
+        padding: 10%;
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 50px;
+        width: 57vw;
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: 2px 3px 2px 4px aqua;
+        border-radius: 9px;
+        transition: 1s;
+    }
+
+    .f-left {
+        display: none;
+    }
+
+    .fronted {
+        display: none;
+    }
+
+    .section1 h1 {
+        width: 100%;
+        font-size: 48px;
+        font-weight: 900;
+        margin-bottom: 20px;
+        color: aliceblue;
+    }
+}
+
+
+
+
+.topcontrol{
+    background: #F95353 none repeat scroll 0 0;
+    border-radius: 30px;
+    bottom: 5px;
+    margin-bottom: 80px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+    cursor: pointer;
+    font-size: 22px;
+    height: 40px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    padding: 6px 10px;
+    position: fixed;
+    margin-right: 10px;
+    -webkit-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+    width: 40px;
+    z-index: 99;
+}
+.topcontrol:hover{
+    background: #fff;
+    color: #F95353;
+}
